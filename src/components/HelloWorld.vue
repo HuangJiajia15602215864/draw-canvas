@@ -136,6 +136,7 @@
         console.log(x,y)
         canvas.style[this.vendors.TRANSFORM] = 'matrix(' + scale + ', 0, 0, ' + scale + ', ' + x + ', ' + y + ')';
       },
+      // 兼容不同浏览器
       vendor() {
 			var TRANSITION = 'transition';
 			var TRANSITION_END = 'transitionend';
